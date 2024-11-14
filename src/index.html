@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/bank.png" type="image/x-icon">
+    <title>Cyber Crypto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font roboto  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css -->
+    <link href="../src/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="py-5">
+        <div class="container">
+
+
+            <nav class="fixed bg-blue-main w-full z-20 top-0 start-0 border-gray-200">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                    <!-- logo header -->
+                    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <span class="self-center text-2xl sm:text-4xl  font-semibold whitespace-nowrap">Cyber
+                            Crypto</span>
+                    </a>
+                    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                        <!-- button get start -->
+                        <button type="button"
+                            class="text-white bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Get
+                            started</button>
+                        <button data-collapse-toggle="navbar-sticky" type="button"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                            aria-controls="navbar-sticky" aria-expanded="false">
+                            <span class="sr-only">Open main menu</span>
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                        id="navbar-sticky">
+                        <ul
+                            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                                    aria-current="page">Home</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:text-white">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:text-white ">Portfolio</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <!-- banner -->
+        <section class="banner py-10 px-5 md:py-20 md:px-0">
+            <div class="container">
+                <div class="bannerContent md:flex md:flex-row-reverse md:items-center xl:max-w-screen-xl xl:mx-auto">
+                    <!-- image -->
+                    <div class="bannerImage mb-10 xl:w-1/2">
+                        <img class="mx-auto " src="./image/bank.png" alt="">
+                    </div>
+                    <!-- text  -->
+
+                    <div class="bannerText space-y-5 xl:w-1/2">
+                        <h1 class="text-5xl md:text-4xl xl:text-7xl font-bold">Trsuted & Secure
+                            <span class="text_gradient">Crypto</span>
+                            Market Exchange.
+                        </h1>
+                        <p class="text-2xl md:text-xl xl:text-2xl text-opacity-75 text-white my-9 inline-block">Already
+                            have a
+                            website? Try our
+                            hosting to
+                            alive
+                            it with
+                            industry-leading
+                            load times.</p>
+                        <div
+                            class="md:flex md:items-center md:space-x-5 xl:flex-col xl:items-start xl:space-y-5 xl:space-x-0">
+                            <button class="button-gradient">Start Trading</button>
+                            <!-- thẻ b dùng để in đậm -->
+                            <b class="text-4xl block md:inline-block xl:text-6xl">A+ Rating</b>
+                        </div>
+                        <p class="text-xl md:text-lg text-white text-opacity-50">Avg rating 4.8 makes us world most best
+                            apps.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- trusted  -->
+        <section class="trusted py-10 px-4 md:py-20 md:px-0">
+            <div class="container">
+                <!-- title -->
+                <div class="trustedTitle text-center">
+                    <h2 class="text-white text-4xl mb-3  md:text-6xl">Trusted
+                        <span class="text_gradient">Cryptocurrency</span>
+                        Platform
+                    </h2>
+                    <p class="text-white text-opacity-50 text-lg ">jano has a variety of features that make
+                        it the best
+                        place to start trading</p>
+                </div>
+                <!-- content -->
+                <div class="trustedContent">
+                    <!-- tabs -->
+                    <div class="mb-4">
+                        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center justify-center"
+                            id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content"
+                            data-tabs-active-classes="text-purple-600 hover:text-purple-600 dark:text-purple-500 dark:hover:text-purple-500 border-purple-600 dark:border-purple-500"
+                            data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300"
+                            role="tablist">
+                            <li class="me-2" role="presentation">
+                                <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-styled-tab"
+                                    data-tabs-target="#styled-profile" type="button" role="tab" aria-controls="profile"
+                                    aria-selected="false">Profile</button>
+                            </li>
+                            <li role="presentation">
+                                <button
+                                    class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                                    id="contacts-styled-tab" data-tabs-target="#styled-contacts" type="button"
+                                    role="tab" aria-controls="contacts" aria-selected="false">Contacts</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="default-styled-tab-content">
+                        <div class="hidden p-4 rounded-lg " id="styled-profile" role="tabpanel"
+                            aria-labelledby="profile-tab">
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden p-4 rounded-lg" id="styled-contacts" role="tabpanel"
+                            aria-labelledby="contacts-tab">
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                                <div
+                                    class="trustedItem p-8 rounded-lg  flex justify-center items-center text-center flex-col space-y-4 bg-white/5">
+                                    <img src="./image/trusted_1.png" alt="">
+                                    <h3 class="text-white font-bold text-xl">Best Exchange Rate</h3>
+                                    <p class="text_content text-base">Convert data noise intelligent for quis lorem.</p>
+                                    <i class="fa-solid fa-arrow-right-long mt-5 text-3xl text-gray-400/100"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- feedback -->
+        <section class="feedback py-10 px-5 md:py-20 md:px-0">
+            <div class="container">
+                <div class="feedbackTitle text-center mb-10">
+                    <p class="text_content text-xl mb-5">Feedback</p>
+                    <h2 class="text-6xl">Trsuted by <span class="text_gradient">Clients</span></h2>
+                </div>
+                <div class="feedbackContent">
+                    <!-- cấu hình slick carousel -->
+                    <div class="feedbackCarousel mb-10">
+                        <div class="feedbackWrap px-3">
+                            <div class="feedbackItem bg-white/20 py-10 px-14 space-y-8 rounded-lg">
+                                <div>
+                                    <img src="./image/kanban.png" alt="">
+                                    <div class="feedbackIconRate mt-3">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    </div>
+                                </div>
+                                <p class="text-2xl">Certainly from my perspective quis been a great success with due WP
+                                    giving us that
+                                    enterprises level
+                                    assured quality.</p>
+                                <p class="text-lg font-bold">Qulaity & Cost: <span class="text_content">15.00</span></p>
+                            </div>
+                        </div>
+                        <div class="feedbackWrap px-3">
+                            <div class="feedbackItem bg-white/20 py-10 px-14 space-y-8 rounded-lg">
+                                <div>
+                                    <img src="./image/aven.png" alt="">
+                                    <div class="feedbackIconRate mt-3">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    </div>
+                                </div>
+                                <p class="text-2xl">Certainly from my perspective quis been a great success with due WP
+                                    giving us that
+                                    enterprises level
+                                    assured quality.</p>
+                                <p class="text-lg font-bold">Qulaity & Cost: <span class="text_content">15.00</span></p>
+                            </div>
+                        </div>
+                        <div class="feedbackWrap px-3">
+                            <div class="feedbackItem bg-white/20 py-10 px-14 space-y-8 rounded-lg">
+                                <div>
+                                    <img src="./image/fox.png" alt="">
+                                    <div class="feedbackIconRate mt-3">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    </div>
+                                </div>
+                                <p class="text-2xl">Certainly from my perspective quis been a great success with due WP
+                                    giving us that
+                                    enterprises level
+                                    assured quality.</p>
+                                <p class="text-lg font-bold">Qulaity & Cost: <span class="text_content">15.00</span></p>
+                            </div>
+                        </div>
+                        <div class="feedbackWrap px-3">
+                            <div class="feedbackItem bg-white/20 py-10 px-14 space-y-8 rounded-lg">
+                                <div>
+                                    <img src="./image/goldline.png" alt="">
+                                    <div class="feedbackIconRate mt-3">
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    </div>
+                                </div>
+                                <p class="text-2xl">Certainly from my perspective quis been a great success with due WP
+                                    giving us that
+                                    enterprises level
+                                    assured quality.</p>
+                                <p class="text-lg font-bold">Qulaity & Cost: <span class="text_content">15.00</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="py-10 px-5 md:py-20 md:px-0">
+        <div class="container">
+            <div
+                class="footerBg bg-white/5 space-y-5 py-10 px-5 md:px-20 md:space-y-0 md:space-x-1 rounded-2xl flex flex-wrap">
+                <div class="footerContent w-full md:flex-1 lg:mr-24">
+                    <h2 class="text_gradient text-4xl font-bold mb-8">Jano.</h2>
+                    <p class="text-xl">Join our newsletter</p>
+                    <div class="bg-white/5 p-2 rounded-lg my-3 flex items-center justify-between max-w-96">
+                        <input type="text" class=" bg-transparent border-none outline-none  flex-1"
+                            placeholder="Enter email">
+                        <button class="bg-gradient-orange-pink px-8 py-3 text-lg rounded-md">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="footerText w-1/2 md:w-full md:flex-1">
+                    <h3 class="footer_title">Link</h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>Pricing</li>
+                        <li>About us</li>
+                        <li>Careenrs</li>
+                        <li>Features</li>
+                        <li>Demo the product</li>
+                    </ul>
+                </div>
+                <div class="footerText w-1/2 md:w-full md:flex-1">
+                    <h3 class="footer_title">Legal</h3>
+                    <ul>
+                        <li>Terms of use</li>
+                        <li>Teems & conditions</li>
+                        <li>Privacy policy</li>
+                        <li>Coookie policy</li>
+                    </ul>
+                </div>
+                <div class="footerText w-1/2 md:w-full md:flex-1">
+                    <h3 class="footer_title">Products</h3>
+                    <ul>
+                        <li>Take the tour</li>
+                        <li>Live chat</li>
+                        <li>Seft-service</li>
+                        <li>Social</li>
+                        <li>Collaboration</li>
+                        <li>Jano Reviews</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- flowbite compoment -->
+    <script src="./../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+    <!-- slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+        integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>$('.feedbackCarousel').slick({
+            infinite: true,
+            dots: true,
+            arrows: false,
+            mobileFirst: true,
+            responsive: [
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 1280,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 2
+                    }
+                },
+            ]
+        });
+    </script>
+</body>
+
+</html>

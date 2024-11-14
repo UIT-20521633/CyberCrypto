@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-blue-main text-white;
+}
+
+.button-gradient {
+  @apply bg-gradient-orange-pink text-white py-3 px-8 rounded-3xl text-lg;
+}
+.text_gradient {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  @apply bg-gradient-orange-pink;
+}
+.text_content {
+  @apply text-white text-opacity-65;
+}
+.feedback .feedbackIconRate {
+  letter-spacing: -2rem;
+}
+.feedback .slick-dots li button:before {
+  color: white;
+  font-size: 16px;
+  margin-top: 13px;
+  opacity: 1;
+}
+.feedback .slick-dots li.slick-active button:before {
+  color: #ff5ea3;
+  font-size: 16px;
+  margin-top: 13px;
+}
+.footer_title {
+  @apply text-white/100 text-2xl font-bold my-5;
+}
+.footerText ul li {
+  @apply text-lg my-2 text-gray-400;
+}
